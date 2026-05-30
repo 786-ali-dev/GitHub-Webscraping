@@ -2,7 +2,7 @@ from flask import Flask, render_template, request
 import requests, os
 from bs4 import BeautifulSoup
 
-app = Flask(__name__)
+app = Fsk(__name__)
 
 @app.route('/')
 def index():
