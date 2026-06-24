@@ -1,8 +1,9 @@
 from flask import Flask, render_template, request
-import requests, os
+import requests
 from bs4 import BeautifulSoup
+import os
 
-app = Fsk(__name__)
+app = Flask(__name__)
 
 @app.route('/')
 def index():
